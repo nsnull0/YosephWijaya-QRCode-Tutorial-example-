@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C118088B1F6D2EC200A5662F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C118088A1F6D2EC200A5662F /* AppDelegate.swift */; };
+		C11808901F6D2EC200A5662F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C118088E1F6D2EC200A5662F /* Main.storyboard */; };
+		C11808931F6D2EC200A5662F /* CarPrice_Barcode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C11808911F6D2EC200A5662F /* CarPrice_Barcode.xcdatamodeld */; };
+		C11808951F6D2EC200A5662F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11808941F6D2EC200A5662F /* Assets.xcassets */; };
+		C11808981F6D2EC200A5662F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11808961F6D2EC200A5662F /* LaunchScreen.storyboard */; };
+		C11808A31F6D2EC200A5662F /* CarPrice_BarcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11808A21F6D2EC200A5662F /* CarPrice_BarcodeTests.swift */; };
+		C11808AE1F6D2EC200A5662F /* CarPrice_BarcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11808AD1F6D2EC200A5662F /* CarPrice_BarcodeUITests.swift */; };
+		C11808BC1F6D31E800A5662F /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11808BB1F6D31E800A5662F /* QRCodeViewController.swift */; };
+		C11808C01F6D3B7B00A5662F /* QRCodeModelVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11808BF1F6D3B7B00A5662F /* QRCodeModelVIew.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C118089F1F6D2EC200A5662F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C118087F1F6D2EC200A5662F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C11808861F6D2EC200A5662F;
+			remoteInfo = CarPrice_Barcode;
+		};
+		C11808AA1F6D2EC200A5662F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C118087F1F6D2EC200A5662F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C11808861F6D2EC200A5662F;
+			remoteInfo = CarPrice_Barcode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C11808871F6D2EC200A5662F /* CarPrice_Barcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPrice_Barcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C118088A1F6D2EC200A5662F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C118088F1F6D2EC200A5662F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C11808921F6D2EC200A5662F /* CarPrice_Barcode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarPrice_Barcode.xcdatamodel; sourceTree = "<group>"; };
+		C11808941F6D2EC200A5662F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C11808971F6D2EC200A5662F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C11808991F6D2EC200A5662F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C118089E1F6D2EC200A5662F /* CarPrice_BarcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarPrice_BarcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11808A21F6D2EC200A5662F /* CarPrice_BarcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPrice_BarcodeTests.swift; sourceTree = "<group>"; };
+		C11808A41F6D2EC200A5662F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11808A91F6D2EC200A5662F /* CarPrice_BarcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarPrice_BarcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11808AD1F6D2EC200A5662F /* CarPrice_BarcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPrice_BarcodeUITests.swift; sourceTree = "<group>"; };
+		C11808AF1F6D2EC200A5662F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11808BB1F6D31E800A5662F /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		C11808BF1F6D3B7B00A5662F /* QRCodeModelVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeModelVIew.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C11808841F6D2EC200A5662F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C118089B1F6D2EC200A5662F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11808A61F6D2EC200A5662F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C118087E1F6D2EC200A5662F = {
+			isa = PBXGroup;
+			children = (
+				C11808891F6D2EC200A5662F /* CarPrice_Barcode */,
+				C11808A11F6D2EC200A5662F /* CarPrice_BarcodeTests */,
+				C11808AC1F6D2EC200A5662F /* CarPrice_BarcodeUITests */,
+				C11808881F6D2EC200A5662F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C11808881F6D2EC200A5662F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11808871F6D2EC200A5662F /* CarPrice_Barcode.app */,
+				C118089E1F6D2EC200A5662F /* CarPrice_BarcodeTests.xctest */,
+				C11808A91F6D2EC200A5662F /* CarPrice_BarcodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C11808891F6D2EC200A5662F /* CarPrice_Barcode */ = {
+			isa = PBXGroup;
+			children = (
+				C118088A1F6D2EC200A5662F /* AppDelegate.swift */,
+				C118088E1F6D2EC200A5662F /* Main.storyboard */,
+				C11808941F6D2EC200A5662F /* Assets.xcassets */,
+				C11808961F6D2EC200A5662F /* LaunchScreen.storyboard */,
+				C11808991F6D2EC200A5662F /* Info.plist */,
+				C11808911F6D2EC200A5662F /* CarPrice_Barcode.xcdatamodeld */,
+				C11808BB1F6D31E800A5662F /* QRCodeViewController.swift */,
+				C11808BF1F6D3B7B00A5662F /* QRCodeModelVIew.swift */,
+			);
+			path = CarPrice_Barcode;
+			sourceTree = "<group>";
+		};
+		C11808A11F6D2EC200A5662F /* CarPrice_BarcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C11808A21F6D2EC200A5662F /* CarPrice_BarcodeTests.swift */,
+				C11808A41F6D2EC200A5662F /* Info.plist */,
+			);
+			path = CarPrice_BarcodeTests;
+			sourceTree = "<group>";
+		};
+		C11808AC1F6D2EC200A5662F /* CarPrice_BarcodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C11808AD1F6D2EC200A5662F /* CarPrice_BarcodeUITests.swift */,
+				C11808AF1F6D2EC200A5662F /* Info.plist */,
+			);
+			path = CarPrice_BarcodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C11808861F6D2EC200A5662F /* CarPrice_Barcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11808B21F6D2EC200A5662F /* Build configuration list for PBXNativeTarget "CarPrice_Barcode" */;
+			buildPhases = (
+				C11808831F6D2EC200A5662F /* Sources */,
+				C11808841F6D2EC200A5662F /* Frameworks */,
+				C11808851F6D2EC200A5662F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarPrice_Barcode;
+			productName = CarPrice_Barcode;
+			productReference = C11808871F6D2EC200A5662F /* CarPrice_Barcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C118089D1F6D2EC200A5662F /* CarPrice_BarcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11808B51F6D2EC200A5662F /* Build configuration list for PBXNativeTarget "CarPrice_BarcodeTests" */;
+			buildPhases = (
+				C118089A1F6D2EC200A5662F /* Sources */,
+				C118089B1F6D2EC200A5662F /* Frameworks */,
+				C118089C1F6D2EC200A5662F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C11808A01F6D2EC200A5662F /* PBXTargetDependency */,
+			);
+			name = CarPrice_BarcodeTests;
+			productName = CarPrice_BarcodeTests;
+			productReference = C118089E1F6D2EC200A5662F /* CarPrice_BarcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C11808A81F6D2EC200A5662F /* CarPrice_BarcodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11808B81F6D2EC200A5662F /* Build configuration list for PBXNativeTarget "CarPrice_BarcodeUITests" */;
+			buildPhases = (
+				C11808A51F6D2EC200A5662F /* Sources */,
+				C11808A61F6D2EC200A5662F /* Frameworks */,
+				C11808A71F6D2EC200A5662F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C11808AB1F6D2EC200A5662F /* PBXTargetDependency */,
+			);
+			name = CarPrice_BarcodeUITests;
+			productName = CarPrice_BarcodeUITests;
+			productReference = C11808A91F6D2EC200A5662F /* CarPrice_BarcodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C118087F1F6D2EC200A5662F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yoseph Wijaya";
+				TargetAttributes = {
+					C11808861F6D2EC200A5662F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C3C9T33288;
+						ProvisioningStyle = Automatic;
+					};
+					C118089D1F6D2EC200A5662F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C11808861F6D2EC200A5662F;
+					};
+					C11808A81F6D2EC200A5662F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C11808861F6D2EC200A5662F;
+					};
+				};
+			};
+			buildConfigurationList = C11808821F6D2EC200A5662F /* Build configuration list for PBXProject "CarPrice_Barcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C118087E1F6D2EC200A5662F;
+			productRefGroup = C11808881F6D2EC200A5662F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C11808861F6D2EC200A5662F /* CarPrice_Barcode */,
+				C118089D1F6D2EC200A5662F /* CarPrice_BarcodeTests */,
+				C11808A81F6D2EC200A5662F /* CarPrice_BarcodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C11808851F6D2EC200A5662F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11808981F6D2EC200A5662F /* LaunchScreen.storyboard in Resources */,
+				C11808951F6D2EC200A5662F /* Assets.xcassets in Resources */,
+				C11808901F6D2EC200A5662F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C118089C1F6D2EC200A5662F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11808A71F6D2EC200A5662F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C11808831F6D2EC200A5662F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11808BC1F6D31E800A5662F /* QRCodeViewController.swift in Sources */,
+				C11808931F6D2EC200A5662F /* CarPrice_Barcode.xcdatamodeld in Sources */,
+				C11808C01F6D3B7B00A5662F /* QRCodeModelVIew.swift in Sources */,
+				C118088B1F6D2EC200A5662F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C118089A1F6D2EC200A5662F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11808A31F6D2EC200A5662F /* CarPrice_BarcodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11808A51F6D2EC200A5662F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11808AE1F6D2EC200A5662F /* CarPrice_BarcodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C11808A01F6D2EC200A5662F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C11808861F6D2EC200A5662F /* CarPrice_Barcode */;
+			targetProxy = C118089F1F6D2EC200A5662F /* PBXContainerItemProxy */;
+		};
+		C11808AB1F6D2EC200A5662F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C11808861F6D2EC200A5662F /* CarPrice_Barcode */;
+			targetProxy = C11808AA1F6D2EC200A5662F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C118088E1F6D2EC200A5662F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C118088F1F6D2EC200A5662F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C11808961F6D2EC200A5662F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11808971F6D2EC200A5662F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C11808B01F6D2EC200A5662F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C11808B11F6D2EC200A5662F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C11808B31F6D2EC200A5662F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = C3C9T33288;
+				INFOPLIST_FILE = CarPrice_Barcode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Self.CarPrice-Barcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C11808B41F6D2EC200A5662F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = C3C9T33288;
+				INFOPLIST_FILE = CarPrice_Barcode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Self.CarPrice-Barcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C11808B61F6D2EC200A5662F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarPrice_BarcodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Self.CarPrice-BarcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarPrice_Barcode.app/CarPrice_Barcode";
+			};
+			name = Debug;
+		};
+		C11808B71F6D2EC200A5662F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarPrice_BarcodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Self.CarPrice-BarcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarPrice_Barcode.app/CarPrice_Barcode";
+			};
+			name = Release;
+		};
+		C11808B91F6D2EC200A5662F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CarPrice_BarcodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Self.CarPrice-BarcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CarPrice_Barcode;
+			};
+			name = Debug;
+		};
+		C11808BA1F6D2EC200A5662F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CarPrice_BarcodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Me.Self.CarPrice-BarcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CarPrice_Barcode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C11808821F6D2EC200A5662F /* Build configuration list for PBXProject "CarPrice_Barcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11808B01F6D2EC200A5662F /* Debug */,
+				C11808B11F6D2EC200A5662F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11808B21F6D2EC200A5662F /* Build configuration list for PBXNativeTarget "CarPrice_Barcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11808B31F6D2EC200A5662F /* Debug */,
+				C11808B41F6D2EC200A5662F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C11808B51F6D2EC200A5662F /* Build configuration list for PBXNativeTarget "CarPrice_BarcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11808B61F6D2EC200A5662F /* Debug */,
+				C11808B71F6D2EC200A5662F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C11808B81F6D2EC200A5662F /* Build configuration list for PBXNativeTarget "CarPrice_BarcodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11808B91F6D2EC200A5662F /* Debug */,
+				C11808BA1F6D2EC200A5662F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C11808911F6D2EC200A5662F /* CarPrice_Barcode.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C11808921F6D2EC200A5662F /* CarPrice_Barcode.xcdatamodel */,
+			);
+			currentVersion = C11808921F6D2EC200A5662F /* CarPrice_Barcode.xcdatamodel */;
+			path = CarPrice_Barcode.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C118087F1F6D2EC200A5662F /* Project object */;
+}
