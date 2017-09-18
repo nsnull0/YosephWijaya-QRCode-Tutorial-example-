@@ -55,7 +55,7 @@ class QRCodeViewController: UIViewController {
                 self.inputQuality.text = ""
                 self.inputQuantity.text = ""
                 UIView.animate(withDuration: 0.3, animations: {
-                    self.topPopUpConstraints.constant = 20
+                    self.topPopUpConstraints.constant = 0
                     self.view.layoutIfNeeded()
                 })
             }else{

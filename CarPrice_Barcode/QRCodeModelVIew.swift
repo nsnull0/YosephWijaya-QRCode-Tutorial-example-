@@ -27,7 +27,6 @@ public struct QRData {
 
 
 class QRCodeModelVIew {
-    
      
     
     private var databaseContext : NSManagedObjectContext = {
@@ -67,6 +66,31 @@ class QRCodeModelVIew {
         }
     }
     
+    func getQRData() -> [QRData] {
+        let productFetch:NSFetchRequest<Product_item> = NSFetchRequest<Product_item>(entityName: "Product_item")
+        var productResult:Array = Array<QRData>()
+        do {
+            let fetchedProduct = try databaseContext.fetch(productFetch)
+            
+            guard fetchedProduct.count > 0 else {
+                return []
+            }
+            
+            for data:Product_item in fetchedProduct {
+                let resultQRData:QRData = QRData(name: data.name!, qrcode: data.qrcode!
+                    , price: "\(data.price!)", quantity: "\(data.quantity)"
+                    , quality: "\(data.quality)")
+                productResult.append(resultQRData)
+            }
+            
+            
+            
+            return productResult
+        } catch {
+            print("\(error)")
+            return []
+        }
+    }
     
     func getQRData(qrCode:String) -> QRData {
         guard qrCode.characters.count > 0 else {

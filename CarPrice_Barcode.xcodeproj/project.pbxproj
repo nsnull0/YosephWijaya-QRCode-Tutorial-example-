@@ -16,6 +16,8 @@
 		C11808AE1F6D2EC200A5662F /* CarPrice_BarcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11808AD1F6D2EC200A5662F /* CarPrice_BarcodeUITests.swift */; };
 		C11808BC1F6D31E800A5662F /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11808BB1F6D31E800A5662F /* QRCodeViewController.swift */; };
 		C11808C01F6D3B7B00A5662F /* QRCodeModelVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11808BF1F6D3B7B00A5662F /* QRCodeModelVIew.swift */; };
+		C12076FF1F6FDDD300939FA2 /* InformationRegisteredProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12076FE1F6FDDD300939FA2 /* InformationRegisteredProductViewController.swift */; };
+		C12077011F6FE3B600939FA2 /* CellProductInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12077001F6FE3B600939FA2 /* CellProductInformationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C11808AF1F6D2EC200A5662F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C11808BB1F6D31E800A5662F /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
 		C11808BF1F6D3B7B00A5662F /* QRCodeModelVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeModelVIew.swift; sourceTree = "<group>"; };
+		C12076FE1F6FDDD300939FA2 /* InformationRegisteredProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationRegisteredProductViewController.swift; sourceTree = "<group>"; };
+		C12077001F6FE3B600939FA2 /* CellProductInformationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellProductInformationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +111,9 @@
 				C11808961F6D2EC200A5662F /* LaunchScreen.storyboard */,
 				C11808991F6D2EC200A5662F /* Info.plist */,
 				C11808911F6D2EC200A5662F /* CarPrice_Barcode.xcdatamodeld */,
-				C11808BB1F6D31E800A5662F /* QRCodeViewController.swift */,
-				C11808BF1F6D3B7B00A5662F /* QRCodeModelVIew.swift */,
+				C12077041F6FE3D700939FA2 /* Screen Controller  */,
+				C12077021F6FE3BC00939FA2 /* Model View List */,
+				C12077031F6FE3C600939FA2 /* Custom Property List */,
 			);
 			path = CarPrice_Barcode;
 			sourceTree = "<group>";
@@ -129,6 +134,31 @@
 				C11808AF1F6D2EC200A5662F /* Info.plist */,
 			);
 			path = CarPrice_BarcodeUITests;
+			sourceTree = "<group>";
+		};
+		C12077021F6FE3BC00939FA2 /* Model View List */ = {
+			isa = PBXGroup;
+			children = (
+				C11808BF1F6D3B7B00A5662F /* QRCodeModelVIew.swift */,
+			);
+			name = "Model View List";
+			sourceTree = "<group>";
+		};
+		C12077031F6FE3C600939FA2 /* Custom Property List */ = {
+			isa = PBXGroup;
+			children = (
+				C12077001F6FE3B600939FA2 /* CellProductInformationView.swift */,
+			);
+			name = "Custom Property List";
+			sourceTree = "<group>";
+		};
+		C12077041F6FE3D700939FA2 /* Screen Controller  */ = {
+			isa = PBXGroup;
+			children = (
+				C11808BB1F6D31E800A5662F /* QRCodeViewController.swift */,
+				C12076FE1F6FDDD300939FA2 /* InformationRegisteredProductViewController.swift */,
+			);
+			name = "Screen Controller ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12076FF1F6FDDD300939FA2 /* InformationRegisteredProductViewController.swift in Sources */,
 				C11808BC1F6D31E800A5662F /* QRCodeViewController.swift in Sources */,
+				C12077011F6FE3B600939FA2 /* CellProductInformationView.swift in Sources */,
 				C11808931F6D2EC200A5662F /* CarPrice_Barcode.xcdatamodeld in Sources */,
 				C11808C01F6D3B7B00A5662F /* QRCodeModelVIew.swift in Sources */,
 				C118088B1F6D2EC200A5662F /* AppDelegate.swift in Sources */,
@@ -524,6 +556,7 @@
 				C11808B41F6D2EC200A5662F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C11808B51F6D2EC200A5662F /* Build configuration list for PBXNativeTarget "CarPrice_BarcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +565,7 @@
 				C11808B71F6D2EC200A5662F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C11808B81F6D2EC200A5662F /* Build configuration list for PBXNativeTarget "CarPrice_BarcodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +574,7 @@
 				C11808BA1F6D2EC200A5662F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
